@@ -2,8 +2,8 @@ fun main(){
 
     //Polimorfismo
     val equipo: List<Pokemon> = listOf(
-        Pikachu("Pikachu", 25),
-        Charmander("Charmander", 4)
+        Pikachu("Pikachu", 25, Tipo.ELECTRICO),
+        Charmander("Charmander", 4, Tipo.FUEGO)
     )
 
     for (pokemon in equipo){
@@ -15,7 +15,7 @@ fun main(){
 
     // Interfaces
 
-    val pikachita = Pikachu("Pikapi", 25)
+    val pikachita = Pikachu("Pikapi", 25, Tipo.ELECTRICO)
 
     pikachita.ataqueEspecial()
     pikachita.esquivar()
@@ -32,4 +32,6 @@ fun main(){
 
     entrenador.llamarPokemon()
 
+
+    //val Charizard = Pokemon("Charizard", 6, Tipo.FUEGO, Tipo.VOLADOR))
 }

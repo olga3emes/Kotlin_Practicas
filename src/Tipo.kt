@@ -1,0 +1,21 @@
+enum class Tipo {
+    FUEGO,
+    AGUA,
+    PLANTA,
+    ELECTRICO,
+    ROCA,
+    TIERRA,
+    HADA,
+    PSIQUICO,
+    HIELO,
+    DRAGON,
+    FANTASMA,
+    BICHO,
+    VENENO,
+    SINIESTRO,
+    METAL,
+    LUCHA,
+    VOLADOR,
+    NORMAL,
+
+}

@@ -1,6 +1,8 @@
 abstract class Pokemon (
     protected val nombre:String,
-    private val numeroPokedex: Int
+    private val numeroPokedex: Int,
+    private val tipo: Tipo,
+    private val subtipo: Tipo?=null,
     ){
 
     protected var vida= 100
@@ -17,7 +19,7 @@ abstract class Pokemon (
     }
 
     override fun toString(): String{
-        return nombre
+        return "$nombre de tipo $tipo"
     }
 
 }
